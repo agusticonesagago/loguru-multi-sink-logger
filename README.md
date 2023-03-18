@@ -36,18 +36,8 @@ pip install -r requirements.txt
 ```
 This will install all the required packages and dependencies needed for Loguru Multi-Sink to function properly. Once the packages are installed, you can start using Loguru Multi-Sink in your own Python projects.
 
-## Functions
+## Function
 
-
-### `_file_sink(file_path: str) -> Callable[[str], None]`
-
-Returns a function that writes log messages to a file.
-
-Parameters:
-- `file_path`: The path to the file to write log messages to.
-
-Returns:
-A function that takes a string argument and writes it to the specified file.
 
 ### `configure_logger(configs: List[Dict[str, str]]) -> None`
 
